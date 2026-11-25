@@ -1,0 +1,39 @@
+services:
+  - type: web
+    name: jayden-xmd
+    runtime: node
+    plan: free
+    buildCommand: npm install --legacy-peer-deps --no-audit --no-fund
+    startCommand: node --expose-gc index.js
+    healthCheckPath: /health
+    envVars:
+      # PORT is injected by Render (10000) — do NOT define it here.
+      - key: NODE_VERSION
+        value: 20.18.0
+      - key: NODE_ENV
+        value: production
+      - key: BOT_NAME
+        value: "🔥 JAYDEN XMD 🔥"
+      - key: OWNER_NUMBER
+        value: "255614545735"
+      - key: OWNER_NAME
+        value: "Abby kiddy"
+      - key: PREFIX
+        value: "."
+      - key: BOT_MODE
+        value: "public"
+      - key: AUTO_STATUS_SEEN
+        value: "true"
+      - key: AUTO_STATUS_REACT
+        value: "true"
+      # Secrets: set these in the Render dashboard (sync: false = not stored in git)
+      - key: MONGO_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
