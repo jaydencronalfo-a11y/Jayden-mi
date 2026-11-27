@@ -15,9 +15,9 @@ services:
       - key: BOT_NAME
         value: "🔥 JAYDEN XMD 🔥"
       - key: OWNER_NUMBER
-        value: "255614545735"
+        value: "255619159794"
       - key: OWNER_NAME
-        value: "Abby kiddy"
+        value: "JAYDEN XMD"
       - key: PREFIX
         value: "."
       - key: BOT_MODE
