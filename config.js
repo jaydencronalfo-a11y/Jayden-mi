@@ -1,5 +1,5 @@
 /*****************************************************************************
- *                     Developed By Abby kiddy                    *
+ *                     Developed By JAYDEN XMD                    *
  *  🌐  GitHub   :https://github.com/majidishaweji1-cmyk/NIGHT-X-BOT          *
  *    © 2026 Abby kiddy. All rights reserved.                      *
  *****************************************************************************/
