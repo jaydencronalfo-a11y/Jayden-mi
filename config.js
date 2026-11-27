@@ -1,14 +1,14 @@
 /*****************************************************************************
  *                     Developed By JAYDEN XMD                    *
  *  🌐  GitHub   :https://github.com/majidishaweji1-cmyk/NIGHT-X-BOT          *
- *    © 2026 Abby kiddy. All rights reserved.                      *
+ *    © 2026 JAYDEN XMD. All rights reserved.                      *
  *****************************************************************************/
 
 require('dotenv').config();
 
 // Session pairing config (NO session_id — pair-only bot)
 global.SESSION_ID     = '';
-global.PAIRING_NUMBER = process.env.PAIRING_NUMBER || process.env.OWNER_NUMBER || '+255614545735';
+global.PAIRING_NUMBER = process.env.PAIRING_NUMBER || process.env.OWNER_NUMBER || '+255619159794';
 
 // Newsletter JID
 global.NEWSLETTER_JID = process.env.NEWSLETTER_JID || '120363398106360290@newsletter';
